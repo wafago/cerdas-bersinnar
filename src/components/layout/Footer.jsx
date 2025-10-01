@@ -131,7 +131,7 @@ const Footer = () => {
                 untuk kemajuan UMKM Desa Kalianyar.
               </p>
               <p className="text-sm mt-1">
-                Powered by <span className="text-yellow-400 font-semibold">PPK ORMAWA HMPS S1 Pendidikan Ipa X Fslkm</span> - 
+                Powered by <span className="text-yellow-400 font-semibold">PPK ORMAWA HMPS S1 Pendidikan Ipa</span> - 
                 <span className="text-emerald-400 font-semibold"> Universitas Jember</span>
               </p>
             </div> 
