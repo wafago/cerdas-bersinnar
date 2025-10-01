@@ -3,13 +3,13 @@ export const products = [
   {
     id: 1,
     name: "Mie Jagung",
-    price: 15000,
+    price: 8000,
     description: "Mie jagung organik dengan tekstur kenyal dan rasa gurih alami. Diproduksi dari jagung pilihan berkualitas tinggi.",
     category: "Makanan",
     stock: 50,
     vendor: {
       name: "Toko Pangan Sehat",
-      whatsapp: "6280000000001",
+      whatsapp: "621216644516",
       location: "Desa Kalianyar",
       experience: "5 tahun",
       rating: 4.5
@@ -20,13 +20,13 @@ export const products = [
   {
     id: 2,
     name: "Es Krim Tahu",
-    price: 12000,
+    price: 5000,
     description: "Es krim unik berbahan dasar tahu dengan tekstur lembut dan rasa yang menyegarkan. Rendah lemak dan tinggi protein.",
     category: "Makanan",
     stock: 40,
     vendor: {
       name: "Frozen Tahu Kreatif",
-      whatsapp: "6280000000002",
+      whatsapp: "6281216644512",
       location: "Desa Kalianyar",
       experience: "3 tahun",
       rating: 4.3
@@ -37,13 +37,13 @@ export const products = [
   {
     id: 3,
     name: "Aksesoris Limbah Lain Perca",
-    price: 20000,
+    price: 4000,
     description: "Aksesoris fashion ramah lingkungan dari limbah kain perca. Desain menarik dan berkualitas tinggi.",
     category: "Kerajinan",
     stock: 30,
     vendor: {
       name: "Kreatif Perca Studio",
-      whatsapp: "6280000000003",
+      whatsapp: "621216644516",
       location: "Desa Kalianyar",
       experience: "4 tahun",
       rating: 4.7
@@ -54,13 +54,13 @@ export const products = [
   {
     id: 4,
     name: "Budidamber (Aquaponik)",
-    price: 50000,
+    price: 65000,
     description: "Sistem budidaya ikan dalam ember dengan metode aquaponik. Cocok untuk lahan terbatas dan pemula.",
     category: "Pertanian",
     stock: 20,
     vendor: {
       name: "Aqua Farm Solutions",
-      whatsapp: "6280000000004",
+      whatsapp: "6281216644514",
       location: "Desa Kalianyar",
       experience: "6 tahun",
       rating: 4.8
@@ -71,13 +71,13 @@ export const products = [
   {
     id: 5,
     name: "Pakan Lele Limbah Tahu",
-    price: 20000,
+    price: 12000,
     description: "Pakan lele berkualitas tinggi dari limbah tahu yang diolah secara higienis. Nutrisi lengkap untuk pertumbuhan optimal.",
     category: "Pertanian",
     stock: 25,
     vendor: {
       name: "Pakan Organik Nusantara",
-      whatsapp: "6280000000005",
+      whatsapp: "6281216644515",
       location: "Desa Kalianyar",
       experience: "7 tahun",
       rating: 4.6
@@ -88,13 +88,13 @@ export const products = [
   {
     id: 6,
     name: "Media Tanam Hidroton",
-    price: 30000,
+    price: 15000,
     description: "Media tanam hidroton berkualitas premium untuk sistem hidroponik. pH netral dan drainase excellent.",
     category: "Pertanian",
     stock: 35,
     vendor: {
       name: "Hidroponic Supply Co",
-      whatsapp: "6280000000006",
+      whatsapp: "6281216644516",
       location: "Desa Kalianyar",
       experience: "5 tahun",
       rating: 4.4
@@ -105,13 +105,13 @@ export const products = [
   {
     id: 8,
     name: "Nugget Tahu",
-    price: 18000,
+    price: 12000,
     description: "Nugget lezat berbahan dasar tahu dengan bumbu rempah pilihan. Praktis dan bergizi tinggi.",
     category: "Makanan",
     stock: 40,
     vendor: {
       name: "Tahu Kreasi Kuliner",
-      whatsapp: "6280000000008",
+      whatsapp: "6281216644518",
       location: "Desa Kalianyar",
       experience: "4 tahun",
       rating: 4.2
@@ -128,7 +128,7 @@ export const products = [
     stock: 35,
     vendor: {
       name: "Dessert Sehat Bakery",
-      whatsapp: "6280000000009",
+      whatsapp: "6281216644519",
       location: "Desa Kalianyar",
       experience: "3 tahun",
       rating: 4.6
@@ -139,13 +139,13 @@ export const products = [
   {
     id: 10,
     name: "Cookies Jagung",
-    price: 16000,
+    price: 12000,
     description: "Cookies renyah dengan rasa jagung manis alami. Dibuat tanpa pengawet dan pewarna buatan.",
     category: "Makanan",
     stock: 45,
     vendor: {
       name: "Jagung Manis Cookies",
-      whatsapp: "6280000000010",
+      whatsapp: "6281216644510",
       location: "Desa Kalianyar",
       experience: "2 tahun",
       rating: 4.3
@@ -162,7 +162,7 @@ export const products = [
     stock: 30,
     vendor: {
       name: "Bontofu Premium",
-      whatsapp: "6280000000011",
+      whatsapp: "6281216644511",
       location: "Desa Kalianyar",
       experience: "4 tahun",
       rating: 4.7
@@ -173,13 +173,13 @@ export const products = [
   {
     id: 12,
     name: "Keripik Kelor Inti Tahu",
-    price: 19000,
+    price: 10000,
     description: "Keripik sehat dari daun kelor dan inti tahu. Kaya akan vitamin, mineral, dan antioksidan alami.",
     category: "Makanan",
     stock: 28,
     vendor: {
       name: "Superfood Snacks",
-      whatsapp: "6280000000012",
+      whatsapp: "6281216644512",
       location: "Desa Kalianyar",
       experience: "3 tahun",
       rating: 4.5
@@ -196,7 +196,7 @@ export const products = [
     stock: 50,
     vendor: {
       name: "Energy Bar Indonesia",
-      whatsapp: "6280000000013",
+      whatsapp: "6281216644513",
       location: "Desa Kalianyar",
       experience: "2 tahun",
       rating: 4.1
@@ -207,13 +207,13 @@ export const products = [
   {
     id: 14,
     name: "Cookies Tahu",
-    price: 17000,
+    price: 10000,
     description: "Cookies lembut berbahan tahu dengan rasa vanilla dan cokelat. Rendah gula dan tinggi protein.",
     category: "Makanan",
     stock: 42,
     vendor: {
       name: "Healthy Cookies Co",
-      whatsapp: "6280000000014",
+      whatsapp: "6281216644514",
       location: "Desa Kalianyar",
       experience: "3 tahun",
       rating: 4.4
@@ -224,13 +224,13 @@ export const products = [
   {
     id: 15,
     name: "Kerupuk Ampas Tahu",
-    price: 12000,
+    price: 9000,
     description: "Kerupuk renyah dari ampas tahu yang diolah dengan bumbu tradisional. Zero waste dan ramah lingkungan.",
     category: "Makanan",
     stock: 60,
     vendor: {
       name: "Zero Waste Food",
-      whatsapp: "6280000000015",
+      whatsapp: "6281216644515",
       location: "Desa Kalianyar",
       experience: "5 tahun",
       rating: 4.2
@@ -241,13 +241,13 @@ export const products = [
   {
     id: 16,
     name: "Kerupuk Tahu",
-    price: 15000,
+    price: 9000,
     description: "Kerupuk tahu klasik dengan rasa gurih dan tekstur yang renyah. Dibuat dari tahu pilihan berkualitas tinggi.",
     category: "Makanan",
     stock: 55,
     vendor: {
       name: "Kerupuk Tradisional Nusantara",
-      whatsapp: "6280000000016",
+      whatsapp: "6281216644516",
       location: "Desa Kalianyar",
       experience: "6 tahun",
       rating: 4.3
@@ -264,7 +264,7 @@ export const products = [
     stock: 65,
     vendor: {
       name: "Corn Chips Factory",
-      whatsapp: "6280000000017",
+      whatsapp: "6281216644517",
       location: "Desa Kalianyar",
       experience: "4 tahun",
       rating: 4.0
@@ -281,7 +281,7 @@ export const products = [
     stock: 70,
     vendor: {
       name: "Marning Legendaris",
-      whatsapp: "6280000000018",
+      whatsapp: "6281216644518",
       location: "Desa Kalianyar",
       experience: "10 tahun",
       rating: 4.8
@@ -292,13 +292,13 @@ export const products = [
   {
     id: 19,
     name: "Emping Jagung",
-    price: 18000,
+    price: 9000,
     description: "Emping jagung khas dengan tekstur tipis dan renyah. Proses pembuatan tradisional yang menghasilkan rasa otentik.",
     category: "Makanan",
     stock: 38,
     vendor: {
       name: "Emping Tradisional",
-      whatsapp: "6280000000019",
+      whatsapp: "6281216644519",
       location: "Desa Kalianyar",
       experience: "8 tahun",
       rating: 4.5
@@ -309,13 +309,13 @@ export const products = [
   {
     id: 20,
     name: "Cies Tahu",
-    price: 14000,
+    price: 9000,
     description: "Cemilan tahu krispi dengan bumbu pedas manis yang addictive. Tekstur crispy di luar dan lembut di dalam.",
     category: "Makanan",
     stock: 48,
     vendor: {
       name: "Crispy Tahu House",
-      whatsapp: "6280000000020",
+      whatsapp: "6281216644520",
       location: "Desa Kalianyar",
       experience: "2 tahun",
       rating: 4.2
@@ -326,13 +326,13 @@ export const products = [
   {
     id: 21,
     name: "Lilin Aroma Kopi",
-    price: 35000,
+    price: 14000,
     description: "Lilin aromaterapi dengan wangi kopi yang menenangkan. Dibuat dari lilin soy wax alami dan essential oil kopi.",
     category: "Kerajinan",
     stock: 25,
     vendor: {
       name: "Aroma Candle Studio",
-      whatsapp: "6280000000021",
+      whatsapp: "6281216644521",
       location: "Desa Kalianyar",
       experience: "3 tahun",
       rating: 4.6
@@ -343,13 +343,13 @@ export const products = [
   {
     id: 22,
     name: "Stick Ampas Tahu",
-    price: 13000,
+    price: 9000,
     description: "Stick cemilan dari ampas tahu dengan berbagai bumbu pilihan. Crispy dan gurih, cocok untuk segala usia.",
     category: "Makanan",
     stock: 52,
     vendor: {
       name: "Stick Ampas Kreatif",
-      whatsapp: "6280000000022",
+      whatsapp: "6281216644522",
       location: "Desa Kalianyar",
       experience: "2 tahun",
       rating: 4.1
@@ -360,13 +360,13 @@ export const products = [
   {
     id: 23,
     name: "Cermin Kerang",
-    price: 45000,
+    price: 35000,
     description: "Cermin hias dengan frame dari kulit kerang alami. Desain unik dan ramah lingkungan untuk dekorasi rumah.",
     category: "Kerajinan",
     stock: 18,
     vendor: {
       name: "Kerang Art Craft",
-      whatsapp: "6280000000023",
+      whatsapp: "6281216644523",
       location: "Desa Kalianyar",
       experience: "5 tahun",
       rating: 4.7
@@ -383,7 +383,7 @@ export const products = [
     stock: 22,
     vendor: {
       name: "Perca Batik Creative",
-      whatsapp: "6280000000024",
+      whatsapp: "6281216644524",
       location: "Desa Kalianyar",
       experience: "6 tahun",
       rating: 4.5
@@ -400,7 +400,7 @@ export const products = [
     stock: 40,
     vendor: {
       name: "Bambu Craft Indonesia",
-      whatsapp: "6280000000025",
+      whatsapp: "6281216644525",
       location: "Desa Kalianyar",
       experience: "4 tahun",
       rating: 4.3
@@ -417,7 +417,7 @@ export const products = [
     stock: 15,
     vendor: {
       name: "Fashion Perca Nusantara",
-      whatsapp: "6280000000026",
+      whatsapp: "6281216644526",
       location: "Desa Kalianyar",
       experience: "7 tahun",
       rating: 4.6
@@ -434,7 +434,7 @@ export const products = [
     stock: 32,
     vendor: {
       name: "Corn Craft Studio",
-      whatsapp: "6280000000027",
+      whatsapp: "6281216644527",
       location: "Desa Kalianyar",
       experience: "3 tahun",
       rating: 4.4
@@ -451,7 +451,7 @@ export const products = [
     stock: 26,
     vendor: {
       name: "Natural Frame Art",
-      whatsapp: "6280000000028",
+      whatsapp: "6281216644528",
       location: "Desa Kalianyar",
       experience: "4 tahun",
       rating: 4.5
@@ -468,7 +468,7 @@ export const products = [
     stock: 100,
     vendor: {
       name: "Coconut Charcoal Co",
-      whatsapp: "6280000000029",
+      whatsapp: "6281216644529",
       location: "Desa Kalianyar",
       experience: "8 tahun",
       rating: 4.7
@@ -479,13 +479,13 @@ export const products = [
   {
     id: 30,
     name: "Tahu Pong",
-    price: 16000,
+    price: 9000,
     description: "Tahu pong krispi dengan isian daging cincang dan sayuran. Camilan tradisional dengan cita rasa yang gurih.",
     category: "Makanan",
     stock: 45,
     vendor: {
       name: "Tahu Pong Tradisional",
-      whatsapp: "6280000000030",
+      whatsapp: "6281216644530",
       location: "Desa Kalianyar",
       experience: "6 tahun",
       rating: 4.3
@@ -496,13 +496,13 @@ export const products = [
   {
     id: 31,
     name: "Tempat Pensil Kulit Jagung",
-    price: 22000,
+    price: 15000,
     description: "Tempat pensil dari kulit jagung dengan desain unik dan ramah lingkungan. Cocok untuk anak sekolah.",
     category: "Kerajinan",
     stock: 35,
     vendor: {
       name: "School Craft Eco",
-      whatsapp: "6280000000031",
+      whatsapp: "6281216644531",
       location: "Desa Kalianyar",
       experience: "2 tahun",
       rating: 4.2
@@ -513,13 +513,13 @@ export const products = [
   {
     id: 32,
     name: "Lilin Aroma Terapi (Jagung)",
-    price: 38000,
+    price: 14000,
     description: "Lilin aromaterapi dari lilin jagung dengan wangi lavender dan chamomile. Membantu relaksasi dan tidur nyenyak.",
     category: "Kerajinan",
     stock: 28,
     vendor: {
       name: "Corn Therapy Candles",
-      whatsapp: "6280000000032",
+      whatsapp: "6281216644532",
       location: "Desa Kalianyar",
       experience: "3 tahun",
       rating: 4.8
@@ -536,7 +536,7 @@ export const products = [
     stock: 20,
     vendor: {
       name: "Coconut Flower Art",
-      whatsapp: "6280000000033",
+      whatsapp: "6281216644533",
       location: "Desa Kalianyar",
       experience: "5 tahun",
       rating: 4.6
@@ -553,7 +553,7 @@ export const products = [
     stock: 12,
     vendor: {
       name: "Ecoprint Fashion",
-      whatsapp: "6280000000034",
+      whatsapp: "6281216644534",
       location: "Desa Kalianyar",
       experience: "4 tahun",
       rating: 4.9
@@ -570,7 +570,7 @@ export const products = [
     stock: 30,
     vendor: {
       name: "Sweet Corn Dodol",
-      whatsapp: "6280000000035",
+      whatsapp: "6281216644535",
       location: "Desa Kalianyar",
       experience: "7 tahun",
       rating: 4.4
@@ -587,7 +587,7 @@ export const products = [
     stock: 40,
     vendor: {
       name: "Coconut Bowl Indonesia",
-      whatsapp: "6280000000036",
+      whatsapp: "6281216644536",
       location: "Desa Kalianyar",
       experience: "6 tahun",
       rating: 4.5
