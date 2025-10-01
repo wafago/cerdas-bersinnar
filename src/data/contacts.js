@@ -11,13 +11,13 @@ export const contactInfo = {
       province: "Jawa Timur",
       postalCode: "68154"
     },
-    phone: "+62 812-3456-7890",
+    phone: "-",
     email: "info@cerdasbersinar.com",
     website: "https://cerdasbersinar.com",
     socialMedia: {
-      whatsapp: "6281234567890",
+      whatsapp: "-",
       facebook: "cerdasbersinar",
-      instagram: "@cerdasbersinar",
+      instagram: "@ppormawa_hmpipa2025",
       youtube: "CerdasBersinar Channel"
     }
   },
