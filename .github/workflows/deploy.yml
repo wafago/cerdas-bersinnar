@@ -1,39 +1,57 @@
-name: Deploy to Hostinger
+name: Deploy React Vite to Hostinger
 
 on:
   push:
     branches:
-      - main   # otomatis jalan kalau push ke branch "main"
+      - main  # Ganti dengan branch yang Anda gunakan (bisa main atau master)
 
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
-
+    
     steps:
-      # Step 1: Ambil kode dari repo
+      # Step 1: Checkout repository
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      # Step 2: Install Node.js (versi 18 cocok untuk Vite)
+      # Step 2: Setup Node.js
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: '22'
+          cache: 'npm'
 
-      # Step 3: Install dependencies
-      - name: Install dependencies
-        run: npm install
+      # Step 3: Clean install dependencies
+      - name: Clean install dependencies
+        run: |
+          rm -rf node_modules package-lock.json
+          npm install --legacy-peer-deps
 
-      # Step 4: Build project
+      # Step 4: Build project dengan error handling
       - name: Build project
-        run: npm run build
+        run: |
+          npm run build --verbose
+        env:
+          CI: false
+          NODE_ENV: production
 
-      # Step 5: Upload hasil dist/ ke Hostinger via FTP
+      # Step 5: Verify build output
+      - name: Verify build output
+        run: |
+          if [ ! -d "dist" ]; then
+            echo "Error: dist folder not found!"
+            exit 1
+          fi
+          echo "Build successful! Dist folder contents:"
+          ls -la dist/
+
+      # Step 6: Deploy ke Hostinger via FTP
       - name: Deploy to Hostinger
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: /public_html/ # sesuaikan dengan folder hosting kamu
+          server-dir: /public_html/
           local-dir: dist/
+          dangerous-clean-slate: false
