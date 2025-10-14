@@ -24,7 +24,7 @@ const About = () => {
   const achievements = [
     { icon: Users, number: "80+", label: "Pelaku UMKM Diberdayakan" },
     { icon: Award, number: "68+", label: "Pelatihan Terselenggara" },
-    { icon: Target, number: "+%", label: "Peningkatan Pendapatan" }
+    { icon: Target, number: "45%", label: "Peningkatan Pendapatan" }
   ]
 
   return (
